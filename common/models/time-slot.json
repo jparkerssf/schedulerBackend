@@ -1,0 +1,43 @@
+{
+  "name": "timeSlot",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "startTime": {
+      "type": "string"
+    },
+    "endTime": {
+      "type": "string"
+    },
+    "month": {
+      "type": "string"
+    },
+    "booked": {
+      "type": "boolean"
+    },
+    "day": {
+      "type": "string"
+    },
+    "cartName": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": 
+        "object"
+      
+    },
+    "published": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
